@@ -33,7 +33,7 @@
 				height: 80px;
 				position: absolute;
 				bottom: 120px;
-				background-image: url('car1.png');
+				background-image: url('car2.png');
 				background-repeat: no-repeat;
 				background-size: 100% 100%;
 			}
@@ -234,7 +234,7 @@
 					enemyCar.setAttribute('class', 'enemy');
 					enemyCar.y = ((x+1) * 350) * -1;
 					enemyCar.style.top = enemyCar.y + "px";
-					enemyCar.style.backgroundColor = randomColor();
+					// enemyCar.style.backgroundColor = randomColor();
 					enemyCar.style.left = Math.floor(Math.random() * 350 ) + "px";
 					gameArea.appendChild(enemyCar);
 				}
